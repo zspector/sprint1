@@ -45,19 +45,41 @@ body {
 .text p {
   text-align: center;
   font-size: 13px;
+  margin-top: 15px;
 }
 
 .instructions {
   margin: 0 auto;
-  /*height: ;*/
   width: 90%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  clear: both;
 }
 
 .steps {
   height: 100%;
   width: 250px;
-  display: inline-block;
   float: left;
+}
+
+.steps h3 {
+  text-align: center;
+  font-size: 20px;
+  color: #1179ad;
+}
+
+.steps p {
+  text-align: center;
+  font-size: 15px;
+  color: #98b5c0;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+color: #0082b7;
 }
 
 .circle {
@@ -98,11 +120,23 @@ body {
   background-size: 185px 185px;
 }
 
-
-
 .button {
   clear: both;
-  background-color: green;
+  background-color: #45ad3a;
+  width: 400px;
+  height: 25px;
+  text-align: center;
+  margin: 0 auto;
 }
 
+.button p {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.main {
+  clear: both;
+  width: 100%;
+}
 
