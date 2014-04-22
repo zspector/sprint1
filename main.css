@@ -50,7 +50,7 @@ body {
 
 .instructions {
   margin: 0 auto;
-  width: 90%;
+  width: 960px;
   margin-top: 40px;
   margin-bottom: 80px;
   clear: both;
@@ -60,6 +60,11 @@ body {
   height: 100%;
   width: 250px;
   float: left;
+  margin-left: 24px;
+}
+
+.steps:first-child {
+  margin-left: 0;
 }
 
 .steps h3 {
@@ -87,6 +92,8 @@ color: #0082b7;
   width: 200px;
   background-color: #1179ad;
   border-radius: 94px;
+  margin-left: 25px;
+
 }
 
 .arrow {
@@ -97,7 +104,7 @@ color: #0082b7;
   width: 168px;
   position: relative;
   top: 100px;
-  margin: 0 -48px 0 -76px;
+  margin: 0 -48px 0 -40px;
 }
 
 .icon {
@@ -124,9 +131,11 @@ color: #0082b7;
   clear: both;
   background-color: #45ad3a;
   width: 400px;
-  height: 25px;
+  height: 35px;
   text-align: center;
   margin: 0 auto;
+  position: relative;
+  top: 60px;
 }
 
 .button p {
