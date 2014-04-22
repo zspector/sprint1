@@ -2,4 +2,107 @@
   outline: 1px solid red;
 }
 
-header {}
+body {
+  font-family: sans-serif;
+  background-color: #ddf5fe;
+}
+
+.header {
+  width: 100%;
+  background-color: #1179ad;
+  height: 60px;
+  display: inline-block;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+.header li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header h1{
+  float: left;
+  margin-top: 20px;
+  margin-left: 15%;
+  font-size: 20px;
+}
+
+.header ul{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20%;
+}
+
+.text h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.text p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.instructions {
+  margin: 0 auto;
+  /*height: ;*/
+  width: 90%;
+}
+
+.steps {
+  height: 100%;
+  width: 250px;
+  display: inline-block;
+  float: left;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #1179ad;
+  border-radius: 94px;
+}
+
+.arrow {
+  background: url('img/arrow.png');
+  background-size: 168px 40px;
+  float: left;
+  height: 40px;
+  width: 168px;
+  position: relative;
+  top: 100px;
+  margin: 0 -48px 0 -76px;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+#scissor {
+  background: url('img/scissor.png') 10px no-repeat;
+  background-size: 185px 185px;
+}
+
+#paper {
+  background: url('img/paper.png') 10px no-repeat;
+  background-size: 185px 185px;
+}
+#tv {
+  background: url('img/tv.png') 10px no-repeat;
+  background-size: 185px 185px;
+}
+
+
+
+.button {
+  clear: both;
+  background-color: green;
+}
+
+
