@@ -1,9 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
 * {
   outline: 1px solid red;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', 'sans-serif';
   background-color: #ddf5fe;
 }
 
@@ -16,36 +18,69 @@ body {
 
 .header a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  height: 30px;
+  float: left;
+}
+
+.header a:hover {
+  color: #83c7e4;
+}
+
+#developers {
+  color: #83c7e4;
+}
+
+#developers:hover {
+  color: #ffffff;
+}
+
+#start {
+  color: #83c7e4;
+  background: #005379;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+#start:hover {
+  color: #ffffff;
 }
 
 .header li{
   display: inline-block;
   margin-right: 10px;
+  color: #83c7e4;
 }
 
 .header h1{
   float: left;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 15%;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header ul{
   float: right;
   margin-top: 20px;
   margin-right: 20%;
+  font-size: 16px;
 }
 
 .text h2 {
   text-align: center;
   font-size: 35px;
-  margin-top: 40px;
+  margin-top: 80px;
+  letter-spacing: -1px;
 }
 
 .text p {
   text-align: center;
   font-size: 13px;
   margin-top: 15px;
+  color: #6e8d99;
 }
 
 .instructions {
@@ -69,14 +104,16 @@ body {
 
 .steps h3 {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   color: #1179ad;
+  margin-top: 20px;
 }
 
 .steps p {
   text-align: center;
   font-size: 15px;
-  color: #98b5c0;
+  color: #6e8d99;
+  margin-top: 8px;
 }
 
 .link {
@@ -88,8 +125,8 @@ color: #0082b7;
 }
 
 .circle {
-  height: 200px;
-  width: 200px;
+  height: 185px;
+  width: 185px;
   background-color: #1179ad;
   border-radius: 94px;
   margin-left: 25px;
@@ -103,8 +140,8 @@ color: #0082b7;
   height: 40px;
   width: 168px;
   position: relative;
-  top: 100px;
-  margin: 0 -48px 0 -40px;
+  top: 75px;
+  margin: 0 -48px 0 -70px;
 }
 
 .icon {
@@ -114,16 +151,16 @@ color: #0082b7;
 }
 
 #scissor {
-  background: url('img/scissor.png') 10px no-repeat;
+  background: url('img/scissor.png') no-repeat;
   background-size: 185px 185px;
 }
 
 #paper {
-  background: url('img/paper.png') 10px no-repeat;
+  background: url('img/paper.png') no-repeat;
   background-size: 185px 185px;
 }
 #tv {
-  background: url('img/tv.png') 10px no-repeat;
+  background: url('img/tv.png') no-repeat;
   background-size: 185px 185px;
 }
 
